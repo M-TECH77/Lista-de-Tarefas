@@ -6,13 +6,13 @@
 
 body {
   min-height: 100vh;
-  background: linear-gradient(65deg, rgb(151, 18, 199), rgb(216, 43, 43));
+  background: linear-gradient(365deg, rgb(35, 6, 179), rgb(43, 135, 216));
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 h1 {
-  color: rgb(251, 177, 39);
+  color: rgb(251, 244, 39);
   margin-top: 100px;
 }
 form {
@@ -58,9 +58,10 @@ ul li {
 }
 ul li span {
   position: absolute;
+  color: #fff;
   top: 0;
   right: 0;
   width: 50px;
   text-align: center;
-  background: #e00;
+  background: teal;
 }
